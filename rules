@@ -24,6 +24,7 @@ www.baidu.com,m.baidu.com###appBanner
 www.baidu.com,m.baidu.com###banner
 www.baidu.com,m.baidu.com##.callappbox
 www.baidu.com,m.baidu.com##.first-card-container
+www.baidu.com,m.baidu.com###index-bn
 
 ! 百度搜索结果清理
 ||baidu.com/se/static/js/modules/invoke/app
@@ -63,7 +64,7 @@ www.baidu.com,m.baidu.com##.se-head-tablink
 www.baidu.com,m.baidu.com##.se-bearicon
 www.baidu.com,m.baidu.com##.page-banner
 www.baidu.com,m.baidu.com##.wa-bk-polysemy-anchor-span
-#www.baidu.com,m.baidu.com##section
+!www.baidu.com,m.baidu.com##section
 www.baidu.com,m.baidu.com##.suggest-wrapper
 www.baidu.com,m.baidu.com##.wa-recommend-list
 www.baidu.com,m.baidu.com##.wa-www-sitelink-normal-sublist_newux
@@ -72,10 +73,10 @@ www.baidu.com,m.baidu.com##.wa-guanfanghao-main
 www.baidu.com,m.baidu.com##.wa-shengka
 www.baidu.com,m.baidu.com##.c-slink-auto
 www.baidu.com,m.baidu.com#@#section
-#www.baidu.com,m.baidu.com#@#b-scroll
-#www.baidu.com,m.baidu.com#@#.c-gap-right-small
-#www.baidu.com,m.baidu.com#@#.rw-title
-#www.baidu.com,m.baidu.com#@##page-ft
+!www.baidu.com,m.baidu.com#@#b-scroll
+!www.baidu.com,m.baidu.com#@#.c-gap-right-small
+!www.baidu.com,m.baidu.com#@#.rw-title
+!www.baidu.com,m.baidu.com#@##page-ft
 www.baidu.com,m.baidu.com##.c-gap-top
 www.baidu.com,m.baidu.com##.c-footer-no-showurl
 www.baidu.com,m.baidu.com##.WA_LOG_SF
@@ -87,6 +88,9 @@ www.baidu.com,m.baidu.com##.main
 www.baidu.com,m.baidu.com###page-pre
 www.baidu.com,m.baidu.com## .WA_LOG_SF
 www.baidu.com,m.baidu.com##.c-row-tile
+www.baidu.com,m.baidu.com##.banner-wrap
+www.baidu.com,m.baidu.com###page-relative
+www.baidu.com,m.baidu.com##.has-title
 
 ! 百度百科清理
 ||bkssl.bdimg.com/static/wiki*topAttach
@@ -101,6 +105,10 @@ baike.baidu.com###J-tashuo-button-fixed
 baike.baidu.com###J-other-content
 baike.baidu.com###J-catalog-tip
 baike.baidu.com###J-spark-entry-container
+baike.baidu.com###lsml-container
+baike.baidu.com###J-promote-baikeAlliance
+baike.baidu.com##.BK-content-load
+baike.baidu.com###J-super-layer-promote
 
 ! 百度极限清理
 ||*^$script,domain=www.baidu.com
@@ -112,11 +120,15 @@ bilibili.com##.download-link
 bilibili.com##.player-inner-download
 bilibili.com##.load-cover
 bilibili.com*bannerList
-live.bilibili.com##.none-select
+bilibili.com##.none-select
 bilibili.com##.index__container__src-commonComponent-bottomOpenApp-
 bilibili.com##.index__openAppBtn__src-commonComponent-topArea-
 bilibili.com###openAppBtn
 bilibili.com##.h5-download-bar
+bilibili.com##.download-app
+bilibili.com###floatBtn
+bilibili.com##.download-hinter-container
+bilibili.com##.unselectable
 
 ! 百度贴吧清理
 ||bdstatic.com/tb/mobile/cool_game
@@ -157,6 +169,7 @@ tieba.baidu.com,dq.tieba.com,jump2.bdimg.com##.j_daoliubar
 tieba.baidu.com,dq.tieba.com,jump2.bdimg.com##.share_content_item_pic_daoliu
 tieba.baidu.com,dq.tieba.com,jump2.bdimg.com##.pbshare_recommend_wrapper
 tieba.baidu.com,dq.tieba.com,jump2.bdimg.com##.pb_cut_hot_recommend
+tieba.baidu.com,dq.tieba.com,jump2.bdimg.com##.mask
 
 ! 知乎清理
 zhihu.com##.AppMagicBanner
@@ -172,6 +185,12 @@ zhihu.com##.HotQuestions
 zhihu.com##.Question-sideColumn
 zhihu.com##.Banner
 zhihu.com##.MBannerAd
+zhihu.com##.CornerButtons
+zhihu.com##.HotBanner
+zhihu.com##.CornerButtons
+zhihu.com##.ColumnPageHeader-Wrapper
+zhihu.com##.MoreAnswers
+!zhihu.com##.lazy
 
 ! 新浪清理
 sina.cn##body > section:nth-of-type(1)
@@ -184,6 +203,13 @@ sina.cn##.j_article_relevent
 sina.cn##.xc_conpoment
 sina.cn###j_relevent_news_dfz
 sina.cn##.ft
+sina.cn##.tmp-floatBar
+sina.cn###pl-blog-cmnt-float
+sina.cn##.app_slider_space
+sina.cn##.fadeInUp
+sina.cn##.foot_comment
+sina.cn###app_slider
+sina.cn###article_to_app
 
 ! 天猫清理
 ||alicdn.com/mui/smartbanner
@@ -221,6 +247,18 @@ taobao.com##.home-wrapper
 taobao.com##.waterfall
 taobao.com##.title
 taobao.com##.slide-item
+taobao.com##.tb-doctor-contents
+taobao.com##.tb-doctor
+taobao.com##.tdog-popup-talkbar-clear
+taobao.com##.tdog-popup-tms-bullet
+||g.alicdn.com^mtb/app-idle-lib/*/callapp.js
+taobao.com##.weex-fixed
+||taobao.com/*/jump-to-app.html
+taobao.com###newBanner
+taobao.com##.nx-float-toolbar
+s.m.taobao.com##li:if([href^="http://mclick.simba.taobao.com"])
+market.m.taobao.com##body > div > div:has-text(热门推荐)
+!main.m.taobao.com##.tpl-wrapper
 
 ! 百度经验清理
 jingyan.baidu.com###exp-fixed-bottom
@@ -279,6 +317,12 @@ zhidao.baidu.com##.icon-bannerad
 zhidao.baidu.com##.header-act-entry
 zhidao.baidu.com###w-gotop
 zhidao.baidu.com##.ask-to-business-box
+zhidao.baidu.com##.show
+zhidao.baidu.com###iknow-common-header
+zhidao.baidu.com##.w-detail-dis-na-btn
+zhidao.baidu.com###feed-recommend
+zhidao.baidu.com##.icon-bdad
+zhidao.baidu.com##.wgt-replies-entry
 
 ! 百度云清理
 pan.baidu.com##.foot-container
@@ -291,6 +335,14 @@ pan.baidu.com###wizard-functions-intro
 pan.baidu.com###buyCenterLink
 pan.baidu.com##.red-packet-box
 pan.baidu.com##.copy-wrap
+pan.baidu.com##.activity-icon
+pan.baidu.com##.divide-line
+pan.baidu.com##.module-canvas
+pan.baidu.com##.copy-link
+pan.baidu.com##.zip-dialog
+pan.baidu.com##.active-msg
+pan.baidu.com##.feed-active-content
+pan.baidu.com##.photo-banner
 
 ! miui论坛清理
 miui.com###app
@@ -304,6 +356,10 @@ coolapk.com##.visible-xs
 
 ! apkpure清理
 apkpure.com##.aegon-warp
+apkpure.com###slide-wrap
+apkpure.com##.box-scroll
+apkpure.com##.bd
+apkpure.com##.ad-box
 
 ! 百度翻译清理
 fanyi.baidu.com##.android-style
@@ -361,6 +417,32 @@ jd.com###mainContent
 jd.com###mCommonFooter
 jd.com###search-input-left-jd
 ||360buyimg.com*jdappdl*.js
+jd.com###goHome
+jd.com###wareListBtn
+jd.com###guessArea
+jd.com##.detail_anchor_item:nth-of-type(4)
+jd.com###m_common_header_goback
+jd.com###m_common_header_jdkey
+jd.com###m_header
+jd.com###m_common_tip
+||jd.com/*OpenApp*
+jd.com###bottomYL
+jd.com###interestPanel
+jd.com###emptyTips
+jd.com##.mod_recommend_v2
+jd.com##.mall_seckill
+jd.com##.shopcart_mod_title
+jd.com###cnxhTitle
+jd.com###recommend
+jd.com###msShortcutMenu
+jd.com###recommendations-container
+jd.com##.shop_mod_recommendations
+jd.com###shop-hot-keywords-panel
+jd.com##.search_prolist_item:if(.search_prolist_ad)
+jd.com##.type_list
+jd.com##.msearch_aside
+jd.com###wareListBtn
+jd.hk###content
 
 ! 手机乐园清理
 shouji.com.cn###backtop
@@ -372,6 +454,8 @@ shouji.com.cn##.rec_Q
 shouji.com.cn##.Q_tip
 shouji.com.cn##.app_article
 shouji.com.cn##.app_soft
+shouji.com.cn##.QZ-up
+shouji.com.cn##.bb_wrap
 
 ! 小米商城清理
 mi.com###globalLoading
@@ -467,22 +551,116 @@ tudou.com##.td-h5__relatedvideos
 ||yfano.com^
 ||hguac.com^
 ||u1ie3.cn^
+||5h9gdb.cn^
+||49tyr.cn^
+||antns.com^
+||679301.com^
+||o5vm6c.cn^
+||wjiul.com^
+||x51se.cn^
+||3j7mb.cn^
+||ybwbmk.cn^
+||5s7uo.cn^
+||eioiof.cn^
+||dgngnv.cn^
+||sfsmscjd.cn^
+||15tig.cn^
+||fkikij.cn^
+||cktktu.cn^
+||ehjhjv.cn^
+||alnlnu.cn^
+||vwjfk.cn^
+||eysmaa.pw^
+||alylym.top^
+||178pu.cn^
+||figigl.cn^
+||jianghaioa.top^
+||fiyid.cn^
+||pianyi95.top^
+||hm251.cn^
+||11cur.cn^
+||hbssjd.cn^
+||lingyingmei.cn^
+||jhqku.cn^
+||jhqku.cn^
+||lingyingmei.cn^
+||ssdoi.com^
+||rheazx.cn^
+||g007x0.cn^
+||x2000xx.cn^
+||guanjicha.cn^
+||rkd56.cn^
+||mh89w.cn^
+||popopp.top^
+||icoc2018.cn^
+||shtbysj.cn^
+||fengwenjing.cn^
+||sg888.vip^
+||klgzzs.cn^
+||sqrxh.cn^
+||02m5j.cn^
+||zhyonk.cn^
+||allluck.cn^
+||mobsame.com^
+||njyyk.com^
+||kolur.top^
+||ipeqc.cn^
+||7m307.cn^
+||yiqima.xyz^
+||5r09l.cn^
+||rkw29.cn^
+||autoseor.com^
+||aaad.xyz^
+||gzluns.cn^
+||syql20.cn^
+||3yz6g.cn^
+||bc2ex9.cn^
+||zbhbs.cn^
+||besttaoquan.com^
+||bjhengdiao.com^
+||jrbyrr.cn^
+||wmasonsimon.cn^
+||sanogame.cn^
+||hy10010.com.cn^
+||pinkmore.cn^
+||bogubogu.cn^
+||qpic.cn^
+||sztcdjhs.com^
+||bnetds.cn^
+||antns.com^
+||72zh.cn^
 
 ! 百度重排清理
 po.baidu.com###backTopModule
 po.baidu.com##.openBox-shareEntry
 po.baidu.com##.commentEmbed-backHomeBtn
 
- ! 搜狐清理
+! 搜狐清理
 sohu.com##.header
 sohu.com##.toHomeBtn
 sohu.com##.select-wrapper
-soho.com##.noFixed
-soho.com##.sub-header
-soho.com###MPCOMMENT
-soho.com##.fixed
-soho.com##.fixed_back_home
-soho.com##.fixed_back_top
+sohu.com##.noFixed
+sohu.com##.sub-header
+sohu.com###MPCOMMENT
+sohu.com##.fixed
+sohu.com##.fixed_back_home
+sohu.com##.fixed_back_top
+sohu.com##.header__r
+sohu.com###apkBannerM
+sohu.com###artRecNews
+sohu.com###artLifeService
+sohu.com##.article
+sohu.com##.author-info
+sohu.com##.article-tags
+sohu.com##.statement
+sohu.com###backTop
+sohu.com###artCommentArea
+sohu.com##.taobao-11-btn
+sohu.com###shareAreaInArticle
+sohu.com##.bottom-slot
+sohu.com##.article-footer
+sohu.com##.art-sogou-hotw
+
 
 ! coding清理
 coding.net##.smart-app-banner
@@ -531,6 +709,7 @@ mail.163.com###mailMasterTip
 
 ! Google防手残
 google.com###qslc
+google.com###srp_particle_avatar
 
 ! 路由器跳过加载动画
 192.168.1.1##.loading
@@ -543,10 +722,12 @@ pixiv.net##.premium-info-bar
 pixiv.net##.premium-lead
 pixiv.net##.geta
 pixiv.net###header > div
-pixiv.net###spa-contents > div > div:nth-of-type(4)
+!pixiv.net###spa-contents > div > div:nth-of-type(4)
 pixiv.net##.work-share-box
 pixiv.net##.premium-lead-t-footer
-pixiv.net##span:nth-of-type(15)
+!pixiv.net##span:nth-of-type(15)
+pixiv.net###user-recommender
+pixiv.net##.premium-lead-new-t-info-home-top
 
 ! 中国移动清理
 rd.go.10086.cn
@@ -558,15 +739,11 @@ rd.go.10086.cn
 youku.com##.iconPop
 ||g.alicdn.com/ku/app-smartbanner/*
 youku.com##.recommend
+youku.com##.yk-trigger-layer
 
 ! 亚马逊清理
 amazon.com###smart-app-banner
 amazon.com###nav-mobile-airstream-stripe
-
-! 自用
-ip111.cn##td:nth-of-type(3)
-pan.baidu.com###saveAll
-pan.baidu.com###saveFile
 
 ! 移动叔叔清理
 bbs.ydss.cn###mcon > .cl
@@ -583,6 +760,7 @@ thepaper.cn###carousel_banner
 thepaper.cn##.news_open_app
 thepaper.cn##.fx
 thepaper.cn##div.news_panel:nth-of-type(3)
+thepaper.cn##.header-v4
 
 ! acfun清理
 acfun.cn###prompt-box
@@ -599,13 +777,23 @@ cn.club.vmall.com##.hbt-adimg
 blog.csdn.net##.pre-numbering
 blog.csdn.net##.hljs-button
 blog.csdn.net###operate
-blog.csdn.net##.clearfix
+!blog.csdn.net##.clearfix
 blog.csdn.net###comment
 blog.csdn.net##.wapappdownloadbox
 blog.csdn.net##.btn_app_link
 blog.csdn.net##.overhidden
 blog.csdn.net###blog-star
 blog.csdn.net##.article-copyright
+blog.csdn.net##.read_more_btn_app_prompt_btn_open
+blog.csdn.net##.read_more_btn_app_prompt_title
+blog.csdn.net###csdn-toolbar
+blog.csdn.net##.app-open-box
+bbs.csdn.net##.csdn-tracking-statistics
+bbs.csdn.net##.backToTop
+bbs.csdn.net##.misson-entry
+bbs.csdn.net##.blog_handle
+bbs.csdn.net##.bbs_top_wrap
+bbs.csdn.net##.btn_app_link
 
 ! 体验盒子清理
 uedbox.com##.crayon-nums
@@ -615,6 +803,7 @@ bing.com###BottomAppPro
 
 ! zol清理
 zol.com.cn###waitrep
+zol.com.cn###bottom-fixed-wrapper
 
 ! xda清理
 xda-developers.com##.twig
@@ -640,8 +829,9 @@ iesdouyin.com##.user-follow-btn
 iesdouyin.com##.download
 
 ! 微信清理
-#mp.weixin.qq.com##.img_loading
+!mp.weixin.qq.com##.img_loading
 mp.weixin.qq.com##mpcps
+mp.weixin.qq.com##.js_weapp_display_element
 
 ! 微博清理
 weibo.cn##.m-col-2
@@ -692,6 +882,9 @@ jianshu.com###footer
 jianshu.com##.header-wrap
 jianshu.com##.gu-pao-ad
 jianshu.com###note-ad
+jianshu.com##.note-graceful-button
+jianshu.com##.fubiao-dialog
+jianshu.com##.book-nav
 
 ! Minecraft论坛清理
 minecraftforum.net##.ad-container
@@ -704,22 +897,6 @@ minecraftforum.net##.footer-ad-medRect
 51cto.com##.closeMB
 51cto.com###Mask
 51cto.com##body > div:nth-of-type(2)
-
-! 搜狐清理
-sohu.com##.header__r
-sohu.com###apkBannerM
-sohu.com###artRecNews
-sohu.com###artLifeService
-sohu.com##.article
-sohu.com##.author-info
-sohu.com##.article-tags
-sohu.com##.statement
-sohu.com###backTop
-sohu.com###artCommentArea
-sohu.com##.taobao-11-btn
-sohu.com###shareAreaInArticle
-sohu.com##.bottom-slot
-sohu.com##.article-footer
 
 ! sourceforge清理
 sourceforge.net##.button
@@ -735,6 +912,16 @@ smzdm.com##.foot-banner
 smzdm.com###J_header_top
 smzdm.com##.flex
 smzdm.com##.J_ota
+smzdm.com##.module-like-wrap
+smzdm.com##.jingxuan-wrapper
+smzdm.com##.recommend-goods-wrapper
+smzdm.com##.footer-banner
+smzdm.com##.has-download
+smzdm.com##.btn-open-app
+smzdm.com##.footer-wrap
+smzdm.com##.header-fix
+smzdm.com##.hot-list-wrap
+smzdm.com##.see-all
 
 ! 网易清理
 163.com##.doc-footer-wrapper
@@ -751,6 +938,9 @@ smzdm.com##.J_ota
 163.com##.m-newsapplite-redpacket-card
 163.com##.js-open-newsapp
 163.com##.m-advert
+163.com##.uc-fixed-ad-wrap
+163.com##.m-downloadBanner
+163.com##.net-hd
 
 ! speed4up清理
 speed4up.com###headlineatas
@@ -763,9 +953,24 @@ lofter.com###GNlockscreen
 lofter.com###open-app
 lofter.com##.g-comment
 lofter.com##.g-recommend
+lofter.com##.g-scale
+lofter.com###mAdWrap
 
 ! 豆瓣清理
 douban.com##.promo_top_banner
+douban.com###topnav-openapp
+douban.com##.openapp
+douban.com##.open-item-in-app
+douban.com##.related-more
+douban.com##.tohomepage
+douban.com##.download-app
+douban.com##.TalionNav-primary
+douban.com###TalionNav
+douban.com##.app-link
+douban.com##.subject-banner
+douban.com##.score-write
+douban.com##.vendor-go-app
+douban.com##.show-all
 
 ! 智能电视清理
 znds.com##.a_pr
@@ -778,8 +983,11 @@ yaohuo.me##.google
 v.qq.com##.txp_tipbar
 v.qq.com##.txp_recommend
 v.qq.com###banner
-@@&refer=http$script,domain=v.qq.com ! 解决内嵌视频无法加载
+!@@&refer=http$script,domain=v.qq.com ! 解决内嵌视频无法加载
 v.qq.com##.txp_watermark
+v.qq.com##.video_function
+v.qq.com###channelbtn
+v.qq.com##.swiper-container-android
 
 ! acg.rip清理
 acg.rip###bangumi-box
@@ -793,9 +1001,13 @@ right.com.cn##.bottom
 ! 应用汇清理
 appchina.com###yyh-bottom
 
-! 巴哈姆特动画疯清理
-ani.gamer.com.tw##.goAPP
-ani.gamer.com.tw##.anime-toapp
+! 巴哈姆特清理
+gamer.com.tw##.goAPP
+gamer.com.tw##.anime-toapp
+gamer.com.tw##.goright
+!gamer.com.tw##header
+gamer.com.tw##.goleft
+gamer.com.tw##.marginTop
 
 ! it之家清理
 quan.ithome.com##.hide
@@ -809,6 +1021,9 @@ ithome.com##.down-app-box
 ithome.com##.head
 ithome.com##.footer
 ithome.com##.hot-app
+ithome.com##.news-content-befor-promote
+ithome.com##.fixed-btn
+ithome.com##.open-app-a
 
 ! 机锋清理
 bbs.gfan.com##.openAppTop
@@ -818,6 +1033,7 @@ bbs.gfan.com##.downs
 ! mega清理
 mega.nz##.download-app
 mega.nz##.app-info-cell
+mega.nz##.st-social-block-load
 
 ! 菜鸟教程清理
 runoob.com##.footer_content
@@ -848,6 +1064,8 @@ taptap.com##.icon-mobile-download
 ! 虎嗅清理
 huxiu.com###guide-box
 huxiu.com##.placeholder-box
+huxiu.com###related-article-wrap
+huxiu.com##.fresh-article-box
 
 ! 中国新闻网清理
 chinanews.com##.bottomBox
@@ -899,6 +1117,7 @@ toutiaoimg.cn##.bottom-banner-container-new
 xw.qq.com##.landad
 xw.qq.com##.feedback
 xw.qq.com##.recommend-modules
+xw.qq.com##.elevator
 
 ! 数码之家清理
 mydigit.cn##.wrap > .mb5
@@ -906,10 +1125,13 @@ mydigit.cn##.wrap > .mb5
 ! 少数派清理
 sspai.com##.recommend
 sspai.com##.open-in-app-button
+sspai.com###header
+sspai.com###app-head
 
 ! 蓝奏云清理
 lanzous.com##.bgimg
 lanzous.com##.top
+lanzous.com##.teta
 
 ! 屏库网清理
 panelook.cn###rightrow
@@ -922,10 +1144,15 @@ kuaibao.qq.com##.hotvideo
 kuaibao.qq.com##.downloadBtn
 kuaibao.qq.com##.J-hotwrap
 kuaibao.qq.com##.showmoremask
+kuaibao.qq.com##.share-page-additional
+kuaibao.qq.com##.show-more-mask
+kuaibao.qq.com##.kb-bottom-fixed-wrapper
 
 ! 掘金清理
 juejin.im##.mobile-bottom-bar
 juejin.im##.suspension-panel
+juejin.im##.open-in-app
+juejin.im##.action-bar
 
 ! mcbbs清理
 mcbbs.net##.view_share
@@ -933,6 +1160,10 @@ mcbbs.net###ainuo_quick_bot
 
 ! zaker清理
 myzaker.com##.zk_top_barwrap
+myzaker.com##.show-icon
+myzaker.com##.fixed-comment-bottom-bar
+||applink.myzaker.com^
+myzaker.com##script:contains(openlink)
 
 ! 环球网清理
 huanqiu.com##.content-tool
@@ -943,3 +1174,260 @@ weibointl.api.weibo.cn##.weibo-og > div:nth-of-type(3)
 weibointl.api.weibo.cn##.card:nth-of-type(3)
 weibointl.api.weibo.cn##.comment-content > div > .comment-item
 weibointl.api.weibo.cn##.footer_suspension
+
+! 微店清理
+weidian.com###common-coupon-component-wrap
+weidian.com##.item-header-container
+weidian.com##.shop-download-toolbar
+weidian.com##.async-ct
+weidian.com##.r-container
+weidian.com##.open-shop-wrap
+
+! 丁香园清理
+dxy.cn##.open-app
+
+! 端传媒清理
+theinitium.com##.c-download-banner
+theinitium.com##.c-global-header__links__item--membership-entry
+
+! 日剧tv清理
+rijutv.com##.fixed
+rijutv.com##[src^="data:image/png;base64,"]
+rijutv.com##.footer
+
+! 虎扑
+hupu.com##.m-app
+hupu.com##.ui-page-tools
+
+! 逗比根据地
+doubibackup.com##.vkea135-hide
+doubibackup.com##.guangg
+
+! 钛媒体
+tmtpost.com##.open-app
+tmtpost.com##.m-bottom
+
+! 好奇心日报
+qdaily.com##.com-header-brief
+qdaily.com##.com-related-comments-brief
+qdaily.com##.com-header-brief
+qdaily.com##.com-share
+qdaily.com##.share-wrapper
+
+! coloros论坛
+bbs.coloros.com###footer_login
+
+! dy2018.com
+||res-etl-ssl.xunlei.com^
+||pstatic.xunlei.com^
+dy2018.com##.xl_android_tips
+
+! 问卷网
+wenjuan.com###wj_luck_draw
+wenjuan.com##.MobileServeyFooter
+wenjuan.com##.survey_info_footer
+
+! 煎蛋
+jandan.net##.row
+
+! a9vg
+a9vg.com###downa9vg
+
+! 界面新闻
+jiemian.com##.app-open
+jiemian.com##.go-index
+jiemian.com##.download-app
+jiemian.com##.download
+jiemian.com##.recommend-column
+jiemian.com##.article-tips
+
+! 新片场
+xinpianchang.com##.download
+
+! A岛匿名版
+adnmb2.com##body > [href="#"]
+
+! 古哥论坛
+gugeys.cc###left_layer
+
+! 游研社
+yystv.cn##.mobile-bottom-tip
+yystv.cn##.download-button
+yystv.cn##.doc-footer
+yystv.cn##.doc-qrcode
+yystv.cn##.toolbar-r
+yystv.cn##.nav
+yystv.cn##.nav-gap
+
+! 博客园
+cnblogs.com###blog_post_info_block
+
+! 腾讯云
+cloud.tencent.com##.com-event-panel-module
+cloud.tencent.com##.com-back2top
+
+! 观察者
+guancha.cn##.downloadBtn-box
+guancha.cn##.full_nav
+
+! 动漫之家
+dmzj.com###divAD
+
+! 大众点评
+dianping.com##.J_downloadlayer
+dianping.com##.J_red-pocket
+dianping.com##.reviewArouse
+dianping.com##.J_ad
+dianping.com##.J_flashscreen
+dianping.com##.sideIcon
+dianping.com##.J_download-guide
+
+! 36kr
+36kr.com##.goapp-btn
+36kr.com##.kr-mobile-goapp
+36kr.com##.gotoapp
+
+! 游戏时光
+vgtime.com##.vg_download_app
+vgtime.com##.head_box
+vgtime.com##.vgart_top
+
+! 搜狗图片	
+pic.sogou.com##.case-wrap
+
+! 小黑盒
+xiaoheihe.cn##.hb-share-header
+xiaoheihe.cn##.btn-open-app
+xiaoheihe.cn##.related
+
+! 百度识图
+graph.baidu.com###graph-c-scrollbanner
+graph.baidu.com###graph-
+
+! 默沙东诊疗手册
+msdmanuals.com##.js_smartbanner
+
+! 凤凰网
+ifeng.com##.acTit
+ifeng.com###ifgHome
+ifeng.com###ifgToTop
+ifeng.com###ifgDown
+
+! 百家号
+mbd.baidu.com##.openall
+mbd.baidu.com##.related-news
+mbd.baidu.com##.outmargin
+mbd.baidu.com##.followSuper
+mbd.baidu.com##.openImg
+mbd.baidu.com##.commentEmbed-backHomeCard
+
+! matters
+matters.news##.fixed
+matters.news##.toolbar-bottom
+matters.news##.outer
+matters.news##header[class^=jsx-]:if(nav)
+
+! 机核
+gcores.com##.appDownloadTip
+gcores.com##.globalActions
+
+! medium
+medium.com##.branch-journeys-top
+
+! 酷壳
+coolshell.cn###masthead
+
+! tumblr
+tumblr.com##.tmblr-iframe--app-cta-button
+tumblr.com##.related-posts-wrapper
+tumblr.com##.iframe-controls--phone-mobile
+
+! 品玩
+pingwest.com##.top-header
+pingwest.com##.download-app-tip
+
+! 太报
+taisounds.com##div.zone-full
+taisounds.com##.active
+
+! 立场新闻
+thestandnews.com##.article-like-rewards-button-slot
+thestandnews.com##.mobile-ad
+thestandnews.com##.shown
+thestandnews.com##header
+thestandnews.com##.hidden-print
+
+! 游民星空
+gamersky.com##.ymw-header2019
+gamersky.com###gsTgWapConBdshareTop
+gamersky.com##.ymw-bdshare-new
+
+! 爱范儿
+ifanr.com##.article-sns-tool
+ifanr.com###header-nav
+
+! nytimes
+nytimes.com##.big_ad
+
+! steemit
+steemit.com##.headroom-wrapper
+
+! 故事
+storystudio.tw##.affix
+storystudio.tw##.headroom--pinned
+
+! 果壳
+guokr.com##div[class^=styled__HeaderWrap]
+guokr.com##div[class^=styled__MArticleBottomWrap]
+
+! weather.com
+weather.com##.adWrapper
+
+! startpage.com
+startpage.com##.hamburger-menu-container
+startpage.com##.header__logo
+startpage.com##.inline-nav-menu--default
+startpage.com##.header__container > noscript
+
+! 绿洲
+oasis.weibo.cn##.header
+oasis.weibo.cn##.download-btn
+oasis.weibo.cn##.recommend-area
+
+! 卡卡洛普
+gamme.com.tw##.h_top_fix
+gamme.com.tw##.fixedbutton_opacity
+
+! 痞客邦
+pixnet.net##.navbar
+pixnet.net##.subscribe-bar-container
+pixnet.net###pilot
+pixnet.net##.discover-stream
+pixnet.net##.hot-articles
+pixnet.net###footer-btn
+
+! 翼夢舞城
+||nico.otomedream.com^$script,1p
+
+! 寒冬
+bitterwinter.org##.js-return-top
+bitterwinter.org##.d-md-none
+
+! 中国数字时代
+chinadigitaltimes.net###back_to_top
+
+! 德国之声
+dw.com##.adWrapper
+
+! Farseerfc的小窝
+farseerfc.me###fcfooter
+farseerfc.me##.navbar-fixed-top
+
+! mobile01
+mobile01.com##.fixedtop
+
+! 编程狮
+w3cschool.cn##.appdownload-nav
+w3cschool.cn##.header-item
+w3cschool.cn###lightbox
+w3cschool.cn##.bar-tab
